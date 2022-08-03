@@ -10,3 +10,4 @@ Run the commands to get started
 Initialize a new tsconfig.json file using the command: `npx tsc --init --types cypress --lib dom,es6`  or just    `npx tsc --init --types cypress` , then proceed to the tsconfig file to add dom and es6 unser lib
 This command ensures that the types for cypress are accessible by typescript. These types depends on dom and es6, so we pass them as lib option to typescript
 
+To launch cypress, I will be using `npx cypress open` instead of the conventional `npm cypress open` because we are running a node package command locally
